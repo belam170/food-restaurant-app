@@ -110,8 +110,8 @@
     background-color: coral;
   }
   .search{
-    width: 50%;
-    padding: 10px;
+    width: 52%;
+    padding: 11px;
     padding-top: 20px;
     font-size: 1.1rem;
     font-family: inherit;
@@ -125,9 +125,9 @@
     color:black;
   }
   .btn{
-width: 55px;
+width: 53px;
 height: 55px;
-font-size: 1.8rem;
+font-size: 1.9rem;
 background-color: var(--tenne-tawny);
 color: black;
 
@@ -145,14 +145,15 @@ transition: all 0.4s linear;
 }
  .food{ 
     margin: 40px;
-    width: 40%;
+    width: 30%;
+    height: 22lh;
     text-align: center;
 } 
 .food{
     border-radius: 1rem;
- 
     overflow: hidden;
      box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+     background-color: coral;
      margin: 2rem 0;
 }
 .foo img{
@@ -168,4 +169,48 @@ transition: all 0.4s linear;
 }
 .f a:hover{
     background-color: coral;
+}
+
+.d{
+  margin: 40px;
+  width: 40%;
+  text-align: center;
+}
+
+.d{
+   border-radius: 1rem;
+   padding-left: 10%;
+   padding-right: 10%;
+    overflow: hidden;
+     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+     background-color: forestgreen; 
+     transform: translateY(-4~50px);
+     margin-left: 350px;
+  
+}
+.ins a{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: olivedrab;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.d img{
+  width: 100%;
+  border-radius: 50%;
+}
+.d button{
+
+  position: absolute;
+  margin-left: 24% ;
+  font-size: 375%;
+  border: none;
+  border-radius: 2rem;
+}
+.ins a:hover{
+  background-color: coral;
+}
+.fu{
+  background-color: #fff;
 }
