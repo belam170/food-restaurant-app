@@ -178,7 +178,7 @@ transition: all 0.4s linear;
 }
 
 .d{
-  display: non;
+  display: none;
    border-radius: 1rem;
    padding-left: 10%;
    padding-right: 10%;
