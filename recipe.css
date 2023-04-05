@@ -178,15 +178,16 @@ transition: all 0.4s linear;
 }
 
 .d{
+  display: non;
    border-radius: 1rem;
    padding-left: 10%;
    padding-right: 10%;
     overflow: hidden;
      box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
      background-color: forestgreen; 
-     transform: translateY(-4~50px);
+     transform: translateY(-450px);
      margin-left: 350px;
-  
+       
 }
 .ins a{
   display: inline-block;
@@ -213,4 +214,10 @@ transition: all 0.4s linear;
 }
 .fu{
   background-color: #fff;
+}
+.d {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
 }
