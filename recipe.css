@@ -154,8 +154,7 @@ transition: all 0.4s linear;
     background-color: bisque;
 }
 .food{
-  display: flex--=
-  ;
+  display: flex;
 }
 
 .food{
@@ -166,7 +165,9 @@ transition: all 0.4s linear;
      margin: 2rem 0;
      width: 20%;
      height: 22lh;
-     text-align: center
+     text-align: center;
+     display: inline-block;
+     margin-right: 50px;
 }
 .foo img{
     width: 100%;
@@ -234,3 +235,4 @@ transition: all 0.4s linear;
   left: 40%;
   transform: translate(-50%, -50%);
 }
+
