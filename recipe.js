@@ -1,7 +1,7 @@
 const searchBtn = document.getElementById('get');
-const mealList = document.querySelector('.meal');
+const mealList = document.getElementById('eatup');
 
-searchBtn.addEventListener('click', getList);
+searchBtn.addEventListener('click', getList)
 
 function getList() {
   let result = document.getElementById('search-btn').value;
@@ -10,11 +10,11 @@ function getList() {
     .then(data => {
       let html = "";
       if (data.meals) {
-        data.meals.forEach(meal => {
+        data.meals.forEach(eatup => {
           html += `
-            <div class="meal" data-id="${meal.idMeal}">
-            <h3>${meal.strMeal}</h3>
-              <img src="${meal.strMealThumb}" alt="ERROR 404">
+            <div class="meal" data-id="${eatup.idMeal}">
+            <h3>${eatup.strMeal}</h3>
+              <img src="${eatup.strMealThumb}" alt="ERROR 404">
               <a class="lik" href="#">Get recipe</a>
             </div>
           `;
