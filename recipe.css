@@ -1,3 +1,11 @@
+ .con{
+  text-align: center;
+  font-size: 240%;
+ }
+ 
+ 
+ 
+ 
  nav   {
     display: flex;
     justify-content: end;
@@ -26,9 +34,9 @@
     width: 50%
  }
  
- .meal{
+ #meal{
+    display: flex;
     
-    margin-left: 500px;
  }
 
   .holder{
