@@ -153,20 +153,20 @@ transition: all 0.4s linear;
 .btn:hover{
     background-color: bisque;
 }
- .food{ 
-    margin: 40px;
-    width: 30%;
-    height: 22lh;
-    text-align: center;
-} 
 .food{
+  display: flex--=
+  ;
+}
 
+.food{
     border-radius: 1rem;
     overflow: hidden;
      box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
      background-color: coral;
      margin: 2rem 0;
      width: 20%;
+     height: 22lh;
+     text-align: center
 }
 .foo img{
     width: 100%;
