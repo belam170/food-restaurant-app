@@ -189,18 +189,7 @@ transition: all 0.4s linear;
   text-align: center;
 }
 
-.d{
-  display: none;
-   border-radius: 1rem;
-   padding-left: 10%;
-   padding-right: 10%;
-    overflow: hidden;
-     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
-     background-color: forestgreen; 
-     transform: translateY(-450px);
-     margin-left: 350px;
-       
-}
+
 .ins a{
   display: inline-block;
   padding: 10px 20px;
@@ -213,25 +202,11 @@ transition: all 0.4s linear;
   width: 100%;
   border-radius: 50%;
 }
-.d button{
-
-  position: absolute;
-  margin-left: 24% ;
-  font-size: 375%;
-  border: none;
-  border-radius: 2rem;
-}
 .ins a:hover{
   background-color: coral;
 }
 .fu{
   background-color: #fff;
-}
-.d {
-  position: fixed;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
 }
 .food a{
   display: inline-block;
@@ -243,4 +218,7 @@ transition: all 0.4s linear;
 }
 .showRecipe{
   display: block;
+}
+.meal-details{
+  text-align: center;
 }

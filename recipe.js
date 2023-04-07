@@ -45,6 +45,7 @@ fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${sach.dataset.id}`)
 function getMenu(meal){
   meal = meal[0]
   let html =`
+  <button><i class="fa-sharp fa-solid fa-xmark fa-flip"></i></button>
   <h7 style=" font-size: 75%;">${meal.strMeal}</h7>
 <p class="fu">${meal.strCategory}</p>
 <div class="ins">
@@ -55,6 +56,6 @@ function getMenu(meal){
 </div>
 `
   recipeList.innerHTML = html;
-  recipeList.classList.add('showRecipe');
+  recipeList.parentElement.classList.add('showRecipe');
 
 }
