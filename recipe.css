@@ -190,7 +190,7 @@ transition: all 0.4s linear;
 }
 
 .d{
-  
+  display: none;
    border-radius: 1rem;
    padding-left: 10%;
    padding-right: 10%;
@@ -233,7 +233,7 @@ transition: all 0.4s linear;
   left: 40%;
   transform: translate(-50%, -50%);
 }
-.food a{
+.recipe-bth{
   display: inline-block;
   padding: 10px 20px;
   background-color: olivedrab;
@@ -241,4 +241,3 @@ transition: all 0.4s linear;
   border-radius: 20px;
   text-decoration: none;
 }
-
