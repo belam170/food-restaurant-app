@@ -1,10 +1,13 @@
 const searchBtn = document.getElementById('get');
 const mealList = document.getElementById('eatup');
+const enter = document.getElementById('search-btn')
 
 // event listeners
 searchBtn.addEventListener('click', getList);
+enter.addEventListener('keydown', getList)
+function getList() 
 
-function getList() {
+{
   let result = document.getElementById('search-btn').value;
   fetch(`https://api.edamam.com/search?q=${result}&app_id=b7cef4c2&app_key=8d46eb050f0da360da5bf95c3b4d01c3`)
     .then(response => response.json())
@@ -32,5 +35,4 @@ function getList() {
     })
     .catch(error => console.log(error));
 }
-
 
