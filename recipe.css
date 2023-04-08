@@ -266,3 +266,6 @@ font-style: italic;
   border-radius: 20px;
   text-decoration: none;
 }
+.social{
+display: flex;
+}
