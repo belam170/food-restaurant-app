@@ -116,7 +116,6 @@
     background-color: coral;
   }
   .search{
-    width: 52%;
     padding: 11px;
     padding-top: 20px;
     font-size: 1.1rem;
@@ -126,6 +125,7 @@
     color:rgba(0, 0, 0, 0.2);
     border-top-left-radius:2rem ;
     border-bottom-left-radius: 2rem;
+    color: brown;
   }
   .search::placeholder{
     color:black;
@@ -227,12 +227,8 @@ transition: all 0.4s linear;
 .fu{
   background-color: #fff;
 }
-.d {
-  position: fixed;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-}
+
+
 .recipe-bth{
   display: inline-block;
   padding: 10px 20px;
