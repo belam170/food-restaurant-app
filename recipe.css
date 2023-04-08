@@ -1,27 +1,39 @@
-
- .con{
-  text-align: center;
-  font-size: 170%;
- }
- nav   {
-    display: flex;
-    justify-content: end;
-    align-items: center;
- }
- nav ul li{
-    list-style-type: none;
-    display: inline;
-    padding-left: 10px;
- }
- nav ul li a{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    border-radius: 20px;
-    text-decoration: none;
-  
- }
+body{
+  background-image: url("https://images.pexels.com/photos/16134553/pexels-photo-16134553.jpeg?auto=compress&cs=tinysrgb&w=800");
+  background-size: cover;
+  object-fit: contain;
+}
+nav{
+display: inline-block;
+justify-content: end;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+nav ul li{
+list-style-type: none;
+  display: inline;
+  padding-left: 10px;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color:green;
+}
+.con blockquote{
+text-align: center;
+font-size: 275%;
+color: brown;
+font-style: italic;
+}
  .d{
     width: 3%;
     height: 20h;
@@ -116,29 +128,42 @@
   .box a:hover{
     background-color: coral;
   }
+  .head{
+    text-align: center;
+    margin-top: 60px;
+  }
   .cox{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
+
+  }
+  .recipes{
+    color: #007bff;
   }
   .search {
-    padding: 10px;
+    margin-top: 70px;
+    width: 900px;
+    padding: 50px;
     font-size: 1.1rem;
     font-family: inherit;
     outline: none;
     border: 1px solid #ccc;
     border-top-left-radius: 125px;
     border-bottom-left-radius: 125px;
+   font-size: 20px;
     box-sizing: none;
   }
-  
+
   .search:focus {
     border-color: #007bff;
   }
   
   .btn {
+    margin-top: 70px;
     outline: none;
-    padding: 10px;
+    padding: 50px;
     font-size: 1.1rem;
     background-color: #007bff;
     color: #fff;
@@ -147,7 +172,6 @@
     border-bottom-right-radius: 205px;
     cursor: pointer;
     box-sizing: border-box;
-    transform: translateY(10px -10px);
   }
   
   .btn:hover {
@@ -222,7 +246,6 @@
   border-radius: 50%;
 }
 .d button{
-
   position: absolute;
   margin-left: 24% ;
   font-size: 375%;
@@ -235,8 +258,6 @@
 .fu{
   background-color: #fff;
 }
-
-
 .recipe-bth{
   display: inline-block;
   padding: 10px 20px;
