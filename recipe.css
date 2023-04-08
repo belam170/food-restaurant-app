@@ -121,7 +121,7 @@
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 1px solid black;
+    border: 1px solid red;
     color:rgba(0, 0, 0, 0.2);
     border-top-left-radius:2rem ;
     border-bottom-left-radius: 2rem;
@@ -134,7 +134,7 @@
 width: 53px;
 height: 55px;
 font-size: 1.9rem;
-background-color: var(--tenne-tawny);
+background-color: coral;
 color: black;
 
 border-top-right-radius: 2rem;
@@ -147,7 +147,7 @@ transition: all 0.4s linear;
   }
 
 .btn:hover{
-    background-color: bisque;
+    background-color: greenyellow;
 }
 .food{
   display: flex;
