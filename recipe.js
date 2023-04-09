@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded',() =>{
 const searchBtn = document.getElementById('get');
 const mealList = document.getElementById('eatup');
 const enter = document.getElementById('search-btn')
@@ -35,4 +36,5 @@ function getList()
     })
     .catch(error => console.log(error));
 }
-
+}
+)
