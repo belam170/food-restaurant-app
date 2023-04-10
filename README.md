@@ -28,9 +28,8 @@ This project basically helps users to look into a database of recipes and hopefu
 >  Clone repository
 
 > Run using live server
-*****
-
-*****
+## live link
+my life link is here...(https://belam170.github.io/food-restaurant-app/)
 ## Dependencies
 - Google fonts
 - Font awesome Icons
