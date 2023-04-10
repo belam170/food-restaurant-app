@@ -5,12 +5,6 @@
 ## Project Description
 This project basically helps users to look into a database of recipes and hopefully find the recipe they are looking for.
 
-## SCREENSHOTS
-- ![Screenshot 2023-03-10 at 3 18 17 PM](https://user-images.githubusercontent.com/62019551/224314212-22edcb5c-9bb7-4200-9243-6299b41e5fff.png)
-- ![Screenshot 2023-03-10 at 3 19 12 PM](https://user-images.githubusercontent.com/62019551/224314464-241b4b6e-e902-40d0-aafa-8efe357c73fa.png)
-
-
-
 ********
 ## SetUp Instruction
 ### Requirements
@@ -35,8 +29,7 @@ This project basically helps users to look into a database of recipes and hopefu
 
 > Run using live server
 *****
-## Live Link
-Or you can access the web application directly via this [https://wondrous-lebkuchen-e0d517.netlify.app/](https://wondrous-lebkuchen-e0d517.netlify.app/)
+
 *****
 ## Dependencies
 - Google fonts
